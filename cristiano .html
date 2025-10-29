@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cristiano Ronaldo Fan Page</title>
+<style>
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+nav {
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    padding: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f1c40f;
+}
+
+.hero {
+    position: relative;
+    background: url('brands/him.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.btn {
+    background: #f1c40f;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #d4ac0d;
+}
+.about {
+    text-align: center;
+    padding: 50px;
+    background: #f4f4f4;
+}
+
+.about h2 {
+    font-size: 2rem;
+}
+
+.about p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: auto;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #2c3e50;
+    color: white;
+}
+</style>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="cristiano%20.html">Home</a></li>
+                <li><a href="biography.html">Biography</a></li>
+                <li><a href="secondpage.html">Achievements</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="https://www.cristianoronaldo.com/.html">News</a></li>
+                <li><a href="sponsorships.html">Sponsorships</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1 class="animate-text">Welcome to Cristiano Ronaldo's Fan Page</h1>
+            <p>Experience the greatness of one of football's all-time legends.</p>
+            <a href="secondpage.html" class="btn">Explore Achievements</a>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>Why Ronaldo?</h2>
+        <p>With five Ballon d'Ors, multiple Champions League titles, and an unmatched work ethic, Ronaldo is more than just a player—he's an icon.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ronaldo Fan Page | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
